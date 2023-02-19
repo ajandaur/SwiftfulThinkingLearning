@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8716BA8C28938A6C009F23A5 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716BA8B28938A6C009F23A5 /* AnyTransitionBootcamp.swift */; };
 		872433CC288F978400703173 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872433CB288F978400703173 /* ButtonStyleBootcamp.swift */; };
+		874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */; };
+		874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */; };
+		8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */; };
+		8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */; };
 		87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87953D48288E2907002CF234 /* AdvancedLearningApp.swift */; };
 		87953D4D288E2908002CF234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87953D4C288E2908002CF234 /* Assets.xcassets */; };
 		87953D50288E2908002CF234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87953D4F288E2908002CF234 /* Preview Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		8716BA8B28938A6C009F23A5 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		872433CB288F978400703173 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveBootcamp.swift; sourceTree = "<group>"; };
+		874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewbuilderBootcamp.swift; sourceTree = "<group>"; };
 		87953D45288E2907002CF234 /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87953D48288E2907002CF234 /* AdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearningApp.swift; sourceTree = "<group>"; };
 		87953D4C288E2908002CF234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +51,7 @@
 		87953D3C288E2907002CF234 = {
 			isa = PBXGroup;
 			children = (
-				87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */,
+				8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */,
 				87953D47288E2907002CF234 /* AdvancedLearning */,
 				87953D46288E2907002CF234 /* Products */,
 			);
@@ -60,6 +68,7 @@
 		87953D47288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */,
 				87953D48288E2907002CF234 /* AdvancedLearningApp.swift */,
 				87953D56288E2B17002CF234 /* ViewModifierBootcamp.swift */,
 				87A5FCF628989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift */,
@@ -67,6 +76,9 @@
 				87953D4E288E2908002CF234 /* Preview Content */,
 				872433CB288F978400703173 /* ButtonStyleBootcamp.swift */,
 				8716BA8B28938A6C009F23A5 /* AnyTransitionBootcamp.swift */,
+				874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */,
+				874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */,
+				8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */,
 			);
 			path = AdvancedLearning;
 			sourceTree = "<group>";
@@ -151,8 +163,12 @@
 			files = (
 				872433CC288F978400703173 /* ButtonStyleBootcamp.swift in Sources */,
 				87953D57288E2B17002CF234 /* ViewModifierBootcamp.swift in Sources */,
+				874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */,
 				8716BA8C28938A6C009F23A5 /* AnyTransitionBootcamp.swift in Sources */,
 				87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */,
+				8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */,
+				874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */,
+				8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */,
 				87A5FCF728989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */,
 			);
