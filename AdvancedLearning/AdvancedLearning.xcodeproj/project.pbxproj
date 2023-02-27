@@ -11,6 +11,9 @@
 		872433CC288F978400703173 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872433CB288F978400703173 /* ButtonStyleBootcamp.swift */; };
 		874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */; };
 		874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */; };
+		87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */; };
+		87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */; };
+		87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */; };
 		8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */; };
 		87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87953D48288E2907002CF234 /* AdvancedLearningApp.swift */; };
@@ -26,6 +29,9 @@
 		872433CB288F978400703173 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveBootcamp.swift; sourceTree = "<group>"; };
 		874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewbuilderBootcamp.swift; sourceTree = "<group>"; };
 		87953D45288E2907002CF234 /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,10 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */,
+				87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */,
+				87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
+			sourceTree = "<group>";
+		};
 		87953D3C288E2907002CF234 = {
 			isa = PBXGroup;
 			children = (
-				8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */,
 				87953D47288E2907002CF234 /* AdvancedLearning */,
 				87953D46288E2907002CF234 /* Products */,
 			);
@@ -68,6 +83,8 @@
 		87953D47288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */,
+				8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */,
 				87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */,
 				87953D48288E2907002CF234 /* AdvancedLearningApp.swift */,
 				87953D56288E2B17002CF234 /* ViewModifierBootcamp.swift */,
@@ -168,8 +185,11 @@
 				87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */,
 				8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */,
 				874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */,
+				87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */,
 				87A5FCF728989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */,
+				87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
