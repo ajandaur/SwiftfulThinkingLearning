@@ -14,6 +14,10 @@
 		87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */; };
 		87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */; };
 		87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
+		87539A2229AD703000AFEC7D /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A2129AD703000AFEC7D /* UIViewRepresentableBootcamp.swift */; };
+		87539A4629B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A4529B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift */; };
+		87539A4829B5575E00AFEC7D /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A4729B5575E00AFEC7D /* ProtocolsBootcamp.swift */; };
+		87539A4A29B78B3900AFEC7D /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A4929B78B3900AFEC7D /* DependencyInjectionBootcamp.swift */; };
 		8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */; };
 		8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */; };
 		87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87953D48288E2907002CF234 /* AdvancedLearningApp.swift */; };
@@ -32,6 +36,10 @@
 		87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		87539A2129AD703000AFEC7D /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		87539A4529B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		87539A4729B5575E00AFEC7D /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		87539A4929B78B3900AFEC7D /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewbuilderBootcamp.swift; sourceTree = "<group>"; };
 		87953D45288E2907002CF234 /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +104,10 @@
 				874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */,
 				874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */,
 				8765A8ED29A18747001F3511 /* GenericsBootcamp.swift */,
+				87539A2129AD703000AFEC7D /* UIViewRepresentableBootcamp.swift */,
+				87539A4529B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift */,
+				87539A4729B5575E00AFEC7D /* ProtocolsBootcamp.swift */,
+				87539A4929B78B3900AFEC7D /* DependencyInjectionBootcamp.swift */,
 			);
 			path = AdvancedLearning;
 			sourceTree = "<group>";
@@ -187,10 +199,14 @@
 				874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */,
 				87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				8765A8F029A1B920001F3511 /* ViewbuilderBootcamp.swift in Sources */,
+				87539A4629B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				87A5FCF728989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */,
+				87539A4829B5575E00AFEC7D /* ProtocolsBootcamp.swift in Sources */,
 				87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				87539A2229AD703000AFEC7D /* UIViewRepresentableBootcamp.swift in Sources */,
 				87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */,
+				87539A4A29B78B3900AFEC7D /* DependencyInjectionBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
