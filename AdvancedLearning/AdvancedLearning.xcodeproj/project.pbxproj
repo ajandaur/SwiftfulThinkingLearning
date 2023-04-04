@@ -11,6 +11,12 @@
 		872433CC288F978400703173 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872433CB288F978400703173 /* ButtonStyleBootcamp.swift */; };
 		874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */; };
 		874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */; };
+		8750A4AD29D5D39B006E495A /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4AC29D5D39B006E495A /* UnitTestingBootcampView.swift */; };
+		8750A4AF29D5D48C006E495A /* UnitTestingBootcampVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4AE29D5D48C006E495A /* UnitTestingBootcampVM.swift */; };
+		8750A4B729D5D527006E495A /* AdvancedLearning_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4B629D5D527006E495A /* AdvancedLearning_Tests.swift */; };
+		8750A4BE29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4BD29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift */; };
+		8750A4C029DB33F5006E495A /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4BF29DB33F5006E495A /* NewMockDataService.swift */; };
+		8750A4C229DB341D006E495A /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4C129DB341D006E495A /* NewMockDataService_Tests.swift */; };
 		87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */; };
 		87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */; };
 		87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
@@ -28,11 +34,28 @@
 		87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8750A4B829D5D527006E495A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87953D3D288E2907002CF234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87953D44288E2907002CF234;
+			remoteInfo = AdvancedLearning;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8716BA8B28938A6C009F23A5 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		872433CB288F978400703173 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		874D380E299D21AF001E8836 /* CustomCurveBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveBootcamp.swift; sourceTree = "<group>"; };
 		874D3810299D27A4001E8836 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		8750A4AC29D5D39B006E495A /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
+		8750A4AE29D5D48C006E495A /* UnitTestingBootcampVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampVM.swift; sourceTree = "<group>"; };
+		8750A4B429D5D527006E495A /* AdvancedLearning_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8750A4B629D5D527006E495A /* AdvancedLearning_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_Tests.swift; sourceTree = "<group>"; };
+		8750A4BD29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
+		8750A4BF29DB33F5006E495A /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		8750A4C129DB341D006E495A /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -52,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8750A4B129D5D527006E495A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87953D42288E2907002CF234 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8750A4AB29D5D38C006E495A /* UnitTestingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				8750A4AC29D5D39B006E495A /* UnitTestingBootcampView.swift */,
+				8750A4AE29D5D48C006E495A /* UnitTestingBootcampVM.swift */,
+				8750A4BF29DB33F5006E495A /* NewMockDataService.swift */,
+			);
+			path = UnitTestingBootcamp;
+			sourceTree = "<group>";
+		};
+		8750A4B529D5D527006E495A /* AdvancedLearning_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8750A4B629D5D527006E495A /* AdvancedLearning_Tests.swift */,
+				8750A4BD29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift */,
+				8750A4C129DB341D006E495A /* NewMockDataService_Tests.swift */,
+			);
+			path = AdvancedLearning_Tests;
+			sourceTree = "<group>";
+		};
 		87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				87953D47288E2907002CF234 /* AdvancedLearning */,
+				8750A4B529D5D527006E495A /* AdvancedLearning_Tests */,
 				87953D46288E2907002CF234 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				87953D45288E2907002CF234 /* AdvancedLearning.app */,
+				8750A4B429D5D527006E495A /* AdvancedLearning_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +143,7 @@
 		87953D47288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				8750A4AB29D5D38C006E495A /* UnitTestingBootcamp */,
 				87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */,
 				8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */,
 				87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */,
@@ -123,6 +176,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8750A4B329D5D527006E495A /* AdvancedLearning_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8750A4BA29D5D527006E495A /* Build configuration list for PBXNativeTarget "AdvancedLearning_Tests" */;
+			buildPhases = (
+				8750A4B029D5D527006E495A /* Sources */,
+				8750A4B129D5D527006E495A /* Frameworks */,
+				8750A4B229D5D527006E495A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8750A4B929D5D527006E495A /* PBXTargetDependency */,
+			);
+			name = AdvancedLearning_Tests;
+			productName = AdvancedLearning_Tests;
+			productReference = 8750A4B429D5D527006E495A /* AdvancedLearning_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		87953D44288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87953D53288E2908002CF234 /* Build configuration list for PBXNativeTarget "AdvancedLearning" */;
@@ -147,9 +218,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					8750A4B329D5D527006E495A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 87953D44288E2907002CF234;
+					};
 					87953D44288E2907002CF234 = {
 						CreatedOnToolsVersion = 13.4;
 					};
@@ -169,11 +244,19 @@
 			projectRoot = "";
 			targets = (
 				87953D44288E2907002CF234 /* AdvancedLearning */,
+				8750A4B329D5D527006E495A /* AdvancedLearning_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8750A4B229D5D527006E495A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87953D43288E2907002CF234 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,12 +269,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8750A4B029D5D527006E495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8750A4BE29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
+				8750A4B729D5D527006E495A /* AdvancedLearning_Tests.swift in Sources */,
+				8750A4C229DB341D006E495A /* NewMockDataService_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87953D41288E2907002CF234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8750A4C029DB33F5006E495A /* NewMockDataService.swift in Sources */,
 				872433CC288F978400703173 /* ButtonStyleBootcamp.swift in Sources */,
 				87953D57288E2B17002CF234 /* ViewModifierBootcamp.swift in Sources */,
+				8750A4AF29D5D48C006E495A /* UnitTestingBootcampVM.swift in Sources */,
 				874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */,
 				8716BA8C28938A6C009F23A5 /* AnyTransitionBootcamp.swift in Sources */,
 				87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */,
@@ -204,6 +299,7 @@
 				87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */,
 				87539A4829B5575E00AFEC7D /* ProtocolsBootcamp.swift in Sources */,
 				87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				8750A4AD29D5D39B006E495A /* UnitTestingBootcampView.swift in Sources */,
 				87539A2229AD703000AFEC7D /* UIViewRepresentableBootcamp.swift in Sources */,
 				87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */,
 				87539A4A29B78B3900AFEC7D /* DependencyInjectionBootcamp.swift in Sources */,
@@ -212,7 +308,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8750A4B929D5D527006E495A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87953D44288E2907002CF234 /* AdvancedLearning */;
+			targetProxy = 8750A4B829D5D527006E495A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8750A4BB29D5D527006E495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EDDZGZ55S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jandaur.anmol.AdvancedLearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedLearning";
+			};
+			name = Debug;
+		};
+		8750A4BC29D5D527006E495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EDDZGZ55S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jandaur.anmol.AdvancedLearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedLearning";
+			};
+			name = Release;
+		};
 		87953D51288E2908002CF234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,6 +534,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8750A4BA29D5D527006E495A /* Build configuration list for PBXNativeTarget "AdvancedLearning_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8750A4BB29D5D527006E495A /* Debug */,
+				8750A4BC29D5D527006E495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		87953D40288E2907002CF234 /* Build configuration list for PBXProject "AdvancedLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
