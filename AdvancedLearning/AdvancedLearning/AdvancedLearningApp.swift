@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct AdvancedLearningApp: App {
+    
+    let currentUserIsSignedIn: Bool
+    
+    init()  {
+        
+//        let userIsSignedIn = CommandLine.arguments.contains("-UITest_startSignedIn") ? true : false
+        userIsSignedIn = ProcessInfo.processInfo.arguments.contains("-UITest_startSignedIn") ? true : false
+            
+        print("USER IS SIGNED IN: \(userIsSignedIn)")
+        
+    }
     var body: some Scene {
         WindowGroup {
-            AnyTransitionBootcamp()
+            UITestingBootcampView(currentUserSignedIn: currentUserIsSignedIn)
         }
     }
 }

@@ -17,6 +17,10 @@
 		8750A4BE29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4BD29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift */; };
 		8750A4C029DB33F5006E495A /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4BF29DB33F5006E495A /* NewMockDataService.swift */; };
 		8750A4C229DB341D006E495A /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4C129DB341D006E495A /* NewMockDataService_Tests.swift */; };
+		8750A4C429E0749D006E495A /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4C329E0749D006E495A /* UITestingBootcampView.swift */; };
+		8750A4CC29E07E0F006E495A /* AdvancedLearning_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4CB29E07E0F006E495A /* AdvancedLearning_UITests.swift */; };
+		8750A4CE29E07E0F006E495A /* AdvancedLearning_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4CD29E07E0F006E495A /* AdvancedLearning_UITestsLaunchTests.swift */; };
+		8750A4D529E07FAE006E495A /* UITestingBootcampView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750A4D429E07FAE006E495A /* UITestingBootcampView_UITests.swift */; };
 		87539A1B29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */; };
 		87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */; };
 		87539A2029A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
@@ -42,6 +46,13 @@
 			remoteGlobalIDString = 87953D44288E2907002CF234;
 			remoteInfo = AdvancedLearning;
 		};
+		8750A4CF29E07E0F006E495A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87953D3D288E2907002CF234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87953D44288E2907002CF234;
+			remoteInfo = AdvancedLearning;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +67,11 @@
 		8750A4BD29D5DA25006E495A /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
 		8750A4BF29DB33F5006E495A /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		8750A4C129DB341D006E495A /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
+		8750A4C329E0749D006E495A /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
+		8750A4C929E07E0F006E495A /* AdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8750A4CB29E07E0F006E495A /* AdvancedLearning_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITests.swift; sourceTree = "<group>"; };
+		8750A4CD29E07E0F006E495A /* AdvancedLearning_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8750A4D429E07FAE006E495A /* UITestingBootcampView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView_UITests.swift; sourceTree = "<group>"; };
 		87539A1A29A66BD500AFEC7D /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1D29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		87539A1F29A7B43000AFEC7D /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -76,6 +92,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8750A4B129D5D527006E495A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8750A4C629E07E0F006E495A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,6 +135,16 @@
 			path = AdvancedLearning_Tests;
 			sourceTree = "<group>";
 		};
+		8750A4CA29E07E0F006E495A /* AdvancedLearning_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8750A4CB29E07E0F006E495A /* AdvancedLearning_UITests.swift */,
+				8750A4CD29E07E0F006E495A /* AdvancedLearning_UITestsLaunchTests.swift */,
+				8750A4D429E07FAE006E495A /* UITestingBootcampView_UITests.swift */,
+			);
+			path = AdvancedLearning_UITests;
+			sourceTree = "<group>";
+		};
 		87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +160,7 @@
 			children = (
 				87953D47288E2907002CF234 /* AdvancedLearning */,
 				8750A4B529D5D527006E495A /* AdvancedLearning_Tests */,
+				8750A4CA29E07E0F006E495A /* AdvancedLearning_UITests */,
 				87953D46288E2907002CF234 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +170,7 @@
 			children = (
 				87953D45288E2907002CF234 /* AdvancedLearning.app */,
 				8750A4B429D5D527006E495A /* AdvancedLearning_Tests.xctest */,
+				8750A4C929E07E0F006E495A /* AdvancedLearning_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +196,7 @@
 				87539A4529B5447900AFEC7D /* UIViewControllerRepresentableBootcamp.swift */,
 				87539A4729B5575E00AFEC7D /* ProtocolsBootcamp.swift */,
 				87539A4929B78B3900AFEC7D /* DependencyInjectionBootcamp.swift */,
+				8750A4C329E0749D006E495A /* UITestingBootcampView.swift */,
 			);
 			path = AdvancedLearning;
 			sourceTree = "<group>";
@@ -194,6 +230,24 @@
 			productReference = 8750A4B429D5D527006E495A /* AdvancedLearning_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8750A4C829E07E0F006E495A /* AdvancedLearning_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8750A4D129E07E0F006E495A /* Build configuration list for PBXNativeTarget "AdvancedLearning_UITests" */;
+			buildPhases = (
+				8750A4C529E07E0F006E495A /* Sources */,
+				8750A4C629E07E0F006E495A /* Frameworks */,
+				8750A4C729E07E0F006E495A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8750A4D029E07E0F006E495A /* PBXTargetDependency */,
+			);
+			name = AdvancedLearning_UITests;
+			productName = AdvancedLearning_UITests;
+			productReference = 8750A4C929E07E0F006E495A /* AdvancedLearning_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		87953D44288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87953D53288E2908002CF234 /* Build configuration list for PBXNativeTarget "AdvancedLearning" */;
@@ -225,6 +279,10 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 87953D44288E2907002CF234;
 					};
+					8750A4C829E07E0F006E495A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 87953D44288E2907002CF234;
+					};
 					87953D44288E2907002CF234 = {
 						CreatedOnToolsVersion = 13.4;
 					};
@@ -245,12 +303,20 @@
 			targets = (
 				87953D44288E2907002CF234 /* AdvancedLearning */,
 				8750A4B329D5D527006E495A /* AdvancedLearning_Tests */,
+				8750A4C829E07E0F006E495A /* AdvancedLearning_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8750A4B229D5D527006E495A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8750A4C729E07E0F006E495A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,6 +345,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8750A4C529E07E0F006E495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8750A4CE29E07E0F006E495A /* AdvancedLearning_UITestsLaunchTests.swift in Sources */,
+				8750A4D529E07FAE006E495A /* UITestingBootcampView_UITests.swift in Sources */,
+				8750A4CC29E07E0F006E495A /* AdvancedLearning_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87953D41288E2907002CF234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +364,7 @@
 				87953D57288E2B17002CF234 /* ViewModifierBootcamp.swift in Sources */,
 				8750A4AF29D5D48C006E495A /* UnitTestingBootcampVM.swift in Sources */,
 				874D3811299D27A4001E8836 /* AnimateableDataBootcamp.swift in Sources */,
+				8750A4C429E0749D006E495A /* UITestingBootcampView.swift in Sources */,
 				8716BA8C28938A6C009F23A5 /* AnyTransitionBootcamp.swift in Sources */,
 				87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */,
 				8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */,
@@ -313,6 +390,11 @@
 			isa = PBXTargetDependency;
 			target = 87953D44288E2907002CF234 /* AdvancedLearning */;
 			targetProxy = 8750A4B829D5D527006E495A /* PBXContainerItemProxy */;
+		};
+		8750A4D029E07E0F006E495A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87953D44288E2907002CF234 /* AdvancedLearning */;
+			targetProxy = 8750A4CF29E07E0F006E495A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -354,6 +436,50 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedLearning";
+			};
+			name = Release;
+		};
+		8750A4D229E07E0F006E495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EDDZGZ55S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jandaur.anmol.AdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedLearning;
+			};
+			name = Debug;
+		};
+		8750A4D329E07E0F006E495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EDDZGZ55S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jandaur.anmol.AdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedLearning;
 			};
 			name = Release;
 		};
@@ -539,6 +665,15 @@
 			buildConfigurations = (
 				8750A4BB29D5D527006E495A /* Debug */,
 				8750A4BC29D5D527006E495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8750A4D129E07E0F006E495A /* Build configuration list for PBXNativeTarget "AdvancedLearning_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8750A4D229E07E0F006E495A /* Debug */,
+				8750A4D329E07E0F006E495A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
