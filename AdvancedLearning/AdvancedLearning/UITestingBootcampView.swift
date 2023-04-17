@@ -26,10 +26,10 @@ class UITestingBootcampViewModel: ObservableObject {
 
 struct UITestingBootcampView: View {
     
-    @StateObject private var vm = UITestingBootcampViewModel
+    @StateObject private var vm: UITestingBootcampViewModel
     
     init(currentUserSignedIn: Bool) {
-        _vm = StateObject(wrappedValue: StateObject(wrappedValue: UITestingBootcampViewModel(currentUserIsSignedIn: currentUserSignedIn)))
+        _vm = StateObject(wrappedValue:  UITestingBootcampViewModel(currentUserIsSignedIn: currentUserSignedIn))
     }
     var body: some View {
         ZStack {

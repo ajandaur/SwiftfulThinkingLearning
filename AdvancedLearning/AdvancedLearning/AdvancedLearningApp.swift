@@ -15,9 +15,9 @@ struct AdvancedLearningApp: App {
     init()  {
         
 //        let userIsSignedIn = CommandLine.arguments.contains("-UITest_startSignedIn") ? true : false
-        userIsSignedIn = ProcessInfo.processInfo.arguments.contains("-UITest_startSignedIn") ? true : false
+        currentUserIsSignedIn = ProcessInfo.processInfo.arguments.contains("-UITest_startSignedIn") ? true : false
             
-        print("USER IS SIGNED IN: \(userIsSignedIn)")
+        print("USER IS SIGNED IN: \(currentUserIsSignedIn)")
         
     }
     var body: some Scene {
