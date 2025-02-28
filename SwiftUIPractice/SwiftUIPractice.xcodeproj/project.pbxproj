@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878ABF8A2D56983600919DEC /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF892D56983600919DEC /* NativePopoverBootcamp.swift */; };
+		878ABF8C2D592F2600919DEC /* AnyLayoutBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF8B2D592F2600919DEC /* AnyLayoutBootcamp.swift */; };
+		878ABF8E2D59314900919DEC /* ViewThatFitsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF8D2D59314900919DEC /* ViewThatFitsBootcamp.swift */; };
+		878ABF922D594F9700919DEC /* GridViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF912D594F9700919DEC /* GridViewBootcamp.swift */; };
+		878ABF942D59527500919DEC /* ContentUnavailableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF932D59527500919DEC /* ContentUnavailableViewBootcamp.swift */; };
 		87C6525F277BD67800861EC2 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6525E277BD67800861EC2 /* SwiftUIPracticeApp.swift */; };
 		87C65261277BD67800861EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C65260277BD67800861EC2 /* ContentView.swift */; };
 		87C65263277BD67900861EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C65262277BD67900861EC2 /* Assets.xcassets */; };
@@ -35,6 +40,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		878ABF892D56983600919DEC /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
+		878ABF8B2D592F2600919DEC /* AnyLayoutBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootcamp.swift; sourceTree = "<group>"; };
+		878ABF8D2D59314900919DEC /* ViewThatFitsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsBootcamp.swift; sourceTree = "<group>"; };
+		878ABF912D594F9700919DEC /* GridViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewBootcamp.swift; sourceTree = "<group>"; };
+		878ABF932D59527500919DEC /* ContentUnavailableViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewBootcamp.swift; sourceTree = "<group>"; };
 		87C6525B277BD67800861EC2 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C6525E277BD67800861EC2 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		87C65260277BD67800861EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +126,11 @@
 				87C65267277BD67900861EC2 /* Persistence.swift */,
 				87C65269277BD67900861EC2 /* SwiftUIPractice.xcdatamodeld */,
 				87C65264277BD67900861EC2 /* Preview Content */,
+				878ABF892D56983600919DEC /* NativePopoverBootcamp.swift */,
+				878ABF8B2D592F2600919DEC /* AnyLayoutBootcamp.swift */,
+				878ABF8D2D59314900919DEC /* ViewThatFitsBootcamp.swift */,
+				878ABF912D594F9700919DEC /* GridViewBootcamp.swift */,
+				878ABF932D59527500919DEC /* ContentUnavailableViewBootcamp.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -214,6 +229,7 @@
 				87C65280277C3FCD00861EC2 /* NavigationView.swift in Sources */,
 				87C6527A277C0E2700861EC2 /* Transitions.swift in Sources */,
 				87C65261277BD67800861EC2 /* ContentView.swift in Sources */,
+				878ABF922D594F9700919DEC /* GridViewBootcamp.swift in Sources */,
 				87C65272277BD68D00861EC2 /* Shapes.swift in Sources */,
 				87C65282277C440200861EC2 /* ListBootCamp.swift in Sources */,
 				87C6526B277BD67900861EC2 /* SwiftUIPractice.xcdatamodeld in Sources */,
@@ -221,6 +237,7 @@
 				87C6527E277C2FBA00861EC2 /* Popover.swift in Sources */,
 				87C6527C277C0F2000861EC2 /* Sheets.swift in Sources */,
 				87C65286277D04A900861EC2 /* ContextMenuBootCamp.swift in Sources */,
+				878ABF8A2D56983600919DEC /* NativePopoverBootcamp.swift in Sources */,
 				87C65295277E8F4900861EC2 /* OnboardingView.swift in Sources */,
 				87C65293277E8E3A00861EC2 /* IntroView.swift in Sources */,
 				87C6528C277E322F00861EC2 /* ViewModelBootcamp.swift in Sources */,
@@ -230,6 +247,9 @@
 				87C65284277C55B200861EC2 /* ActionSheetsBootcamp.swift in Sources */,
 				87C65297277EC82B00861EC2 /* ProfileView.swift in Sources */,
 				87C6528E277E75AB00861EC2 /* EnvironmentObjectBootcamp.swift in Sources */,
+				878ABF8C2D592F2600919DEC /* AnyLayoutBootcamp.swift in Sources */,
+				878ABF8E2D59314900919DEC /* ViewThatFitsBootcamp.swift in Sources */,
+				878ABF942D59527500919DEC /* ContentUnavailableViewBootcamp.swift in Sources */,
 				87C65299277ECEDF00861EC2 /* AsyncImageBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -38,6 +38,7 @@
 		87953D57288E2B17002CF234 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87953D56288E2B17002CF234 /* ViewModifierBootcamp.swift */; };
 		87A5FCF728989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5FCF628989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift */; };
 		87A5FCF9289A01A200E24335 /* CustomShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */; };
+		87BC761829F054B000E0E04F /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC761729F054B000E0E04F /* CloudKitUserBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		87953D56288E2B17002CF234 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		87A5FCF628989B9A00E24335 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		87A5FCF8289A01A200E24335 /* CustomShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeBootcamp.swift; sourceTree = "<group>"; };
+		87BC761729F054B000E0E04F /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		87953D47288E2907002CF234 /* AdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				87BC761629F0549F00E0E04F /* CloudKitBootcamp */,
 				8750A4AB29D5D38C006E495A /* UnitTestingBootcamp */,
 				87539A1C29A6744A00AFEC7D /* PreferenceKeyBootcamp */,
 				8765A8EF29A1B920001F3511 /* ViewbuilderBootcamp.swift */,
@@ -213,6 +216,14 @@
 				87953D4F288E2908002CF234 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87BC761629F0549F00E0E04F /* CloudKitBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				87BC761729F054B000E0E04F /* CloudKitUserBootcamp.swift */,
+			);
+			path = CloudKitBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +384,7 @@
 				8750A4C429E0749D006E495A /* UITestingBootcampView.swift in Sources */,
 				8716BA8C28938A6C009F23A5 /* AnyTransitionBootcamp.swift in Sources */,
 				87953D49288E2907002CF234 /* AdvancedLearningApp.swift in Sources */,
+				87BC761829F054B000E0E04F /* CloudKitUserBootcamp.swift in Sources */,
 				8765A8EE29A18747001F3511 /* GenericsBootcamp.swift in Sources */,
 				874D380F299D21AF001E8836 /* CustomCurveBootcamp.swift in Sources */,
 				87539A1E29A6745E00AFEC7D /* GeometryPreferenceKeyBootcamp.swift in Sources */,

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870A7E002D459FFF00F0DE72 /* GlobalActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A7DFF2D459FFF00F0DE72 /* GlobalActorBootcamp.swift */; };
 		87243C9928D94510002579C8 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87243C9828D94510002579C8 /* TaskGroupBootcamp.swift */; };
 		875D652428C69F4B00AAEA5B /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D652328C69F4B00AAEA5B /* AsyncLetBootcamp.swift */; };
+		877EE4D72D48223B00762091 /* PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877EE4D62D48223B00762091 /* PhotoPickerBootcamp.swift */; };
 		8790DF2E28E3399E00DBF197 /* StructClassActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790DF2D28E3399E00DBF197 /* StructClassActorBootcamp.swift */; };
 		87A5FCFD289A21B500E24335 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5FCFC289A21B500E24335 /* Users.swift */; };
 		87A5FCFF289A247100E24335 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5FCFE289A247100E24335 /* Post.swift */; };
@@ -26,12 +28,15 @@
 		87DCB34F28469C9F00A6FAB6 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCB34E28469C9F00A6FAB6 /* DownloadImageAsync.swift */; };
 		87DCB3512847046000A6FAB6 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCB3502847046000A6FAB6 /* AsyncAwaitBootcamp.swift */; };
 		87DCB35328470B0F00A6FAB6 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCB35228470B0F00A6FAB6 /* TaskBootcamp.swift */; };
+		87E3DEE32D496E130005CA32 /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3DEE22D496E130005CA32 /* AsyncStreamBootcamp.swift */; };
 		87FA3D1D28BC559C008552FC /* UserAndPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FA3D1C28BC559C008552FC /* UserAndPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		870A7DFF2D459FFF00F0DE72 /* GlobalActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorBootcamp.swift; sourceTree = "<group>"; };
 		87243C9828D94510002579C8 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		875D652328C69F4B00AAEA5B /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
+		877EE4D62D48223B00762091 /* PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootcamp.swift; sourceTree = "<group>"; };
 		8790DF2D28E3399E00DBF197 /* StructClassActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorBootcamp.swift; sourceTree = "<group>"; };
 		87A5FCFC289A21B500E24335 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		87A5FCFE289A247100E24335 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -50,6 +55,7 @@
 		87DCB34E28469C9F00A6FAB6 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		87DCB3502847046000A6FAB6 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 		87DCB35228470B0F00A6FAB6 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		87E3DEE22D496E130005CA32 /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
 		87FA3D1C28BC559C008552FC /* UserAndPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +149,9 @@
 				87243C9828D94510002579C8 /* TaskGroupBootcamp.swift */,
 				87C27D4128E1E1B700210749 /* CheckedContinuationBootcamp.swift */,
 				8790DF2D28E3399E00DBF197 /* StructClassActorBootcamp.swift */,
+				870A7DFF2D459FFF00F0DE72 /* GlobalActorBootcamp.swift */,
+				877EE4D62D48223B00762091 /* PhotoPickerBootcamp.swift */,
+				87E3DEE22D496E130005CA32 /* AsyncStreamBootcamp.swift */,
 			);
 			path = SwiftConcurrencyBootcamp;
 			sourceTree = "<group>";
@@ -229,11 +238,13 @@
 				87A5FD08289D59D200E24335 /* UserListViewModel.swift in Sources */,
 				8790DF2E28E3399E00DBF197 /* StructClassActorBootcamp.swift in Sources */,
 				87FA3D1D28BC559C008552FC /* UserAndPosts.swift in Sources */,
+				87E3DEE32D496E130005CA32 /* AsyncStreamBootcamp.swift in Sources */,
 				87A5FD04289C2AB300E24335 /* UserListView.swift in Sources */,
 				87243C9928D94510002579C8 /* TaskGroupBootcamp.swift in Sources */,
 				87DCB34D2845940700A6FAB6 /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				87DCB3412845917400A6FAB6 /* ContentView.swift in Sources */,
 				87A5FD0E289D739E00E24335 /* PostListView.swift in Sources */,
+				877EE4D72D48223B00762091 /* PhotoPickerBootcamp.swift in Sources */,
 				87A5FCFF289A247100E24335 /* Post.swift in Sources */,
 				87DCB35328470B0F00A6FAB6 /* TaskBootcamp.swift in Sources */,
 				87DCB3512847046000A6FAB6 /* AsyncAwaitBootcamp.swift in Sources */,
@@ -242,6 +253,7 @@
 				87DCB33F2845917400A6FAB6 /* SwiftConcurrencyBootcampApp.swift in Sources */,
 				87A5FD02289A24E900E24335 /* APIService.swift in Sources */,
 				87C27D4228E1E1B700210749 /* CheckedContinuationBootcamp.swift in Sources */,
+				870A7E002D459FFF00F0DE72 /* GlobalActorBootcamp.swift in Sources */,
 				87A5FCFD289A21B500E24335 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

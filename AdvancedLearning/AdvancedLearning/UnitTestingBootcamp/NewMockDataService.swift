@@ -12,7 +12,7 @@ import Combine
 protocol NewDataServiceProtocol {
     
     func downloadItemsWithEscaping(completion: @escaping (_ items: [String]) -> ())
-    func downloadItemsWithCombie() -> AnyPublisher<[String], Error>
+    func downloadItemsWithCombine() -> AnyPublisher<[String], Error>
 }
 
 class NewMockDataService: NewDataServiceProtocol {
@@ -31,7 +31,7 @@ class NewMockDataService: NewDataServiceProtocol {
         }
     }
     
-    func downloadItemsWithCombie() -> AnyPublisher<[String], Error> {
+    func downloadItemsWithCombine() -> AnyPublisher<[String], Error> {
         Just(items)
             .tryMap({ publishedItems in
                 guard !publishedItems.isEmpty else {

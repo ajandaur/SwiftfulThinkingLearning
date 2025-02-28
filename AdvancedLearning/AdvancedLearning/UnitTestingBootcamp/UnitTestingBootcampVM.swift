@@ -64,7 +64,7 @@ class UnitTestingBootcampViewModel: ObservableObject {
     }
     
     func downloadWithCombine() {
-        dataService.downloadItemsWithCombie()
+        dataService.downloadItemsWithCombine()
             .sink { _ in
                 //
             } receiveValue: { [weak self] returnedItems in

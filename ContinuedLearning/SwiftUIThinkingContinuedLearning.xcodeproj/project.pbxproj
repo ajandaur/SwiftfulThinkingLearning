@@ -31,6 +31,8 @@
 		875004B2283C1FD60009CC84 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875004B1283C1FD60009CC84 /* ImageLoadingViewModel.swift */; };
 		875004B4283C26800009CC84 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875004B3283C26800009CC84 /* PhotoModelCacheManager.swift */; };
 		875004B6283C27050009CC84 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875004B5283C27050009CC84 /* PhotoModelFileManager.swift */; };
+		878ABF902D59357C00919DEC /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878ABF8F2D59357C00919DEC /* AlignmentGuidesBootcamp.swift */; };
+		879729E02D5959BD007D2612 /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879729DF2D5959BD007D2612 /* ScrollViewPagingBootcamp.swift */; };
 		87DA2F072836E681005087FE /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA2F062836E681005087FE /* TimerBootcamp.swift */; };
 		87DA2F0A2836F096005087FE /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA2F092836F096005087FE /* SubscriberBootcamp.swift */; };
 		87DC77B52825B1AC008939D7 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC77B42825B1AC008939D7 /* CoreDataBootcamp.swift */; };
@@ -77,6 +79,8 @@
 		875004B1283C1FD60009CC84 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		875004B3283C26800009CC84 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		875004B5283C27050009CC84 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
+		878ABF8F2D59357C00919DEC /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
+		879729DF2D5959BD007D2612 /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		87DA2F062836E681005087FE /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		87DA2F092836F096005087FE /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		87DC77B42825B1AC008939D7 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 				87DA2F092836F096005087FE /* SubscriberBootcamp.swift */,
 				87E674A028381B1D004257D4 /* FileManagerBootcamp.swift */,
 				8750049E283C03410009CC84 /* CacheBootcamp.swift */,
+				878ABF8F2D59357C00919DEC /* AlignmentGuidesBootcamp.swift */,
+				879729DF2D5959BD007D2612 /* ScrollViewPagingBootcamp.swift */,
 			);
 			path = SwiftUIThinkingContinuedLearning;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 				87174A65282F135D007316D3 /* EscapingBootcamp.swift in Sources */,
 				87DC77B82825B31E008939D7 /* FruitsContainer.xcdatamodeld in Sources */,
 				87174A6B282F3315007316D3 /* DownloadWithCombine.swift in Sources */,
+				878ABF902D59357C00919DEC /* AlignmentGuidesBootcamp.swift in Sources */,
 				87352966282483A7005D53AD /* HashableBootcamp.swift in Sources */,
 				875004B6283C27050009CC84 /* PhotoModelFileManager.swift in Sources */,
 				8750049F283C03410009CC84 /* CacheBootcamp.swift in Sources */,
@@ -318,6 +325,7 @@
 				87DC77B52825B1AC008939D7 /* CoreDataBootcamp.swift in Sources */,
 				873381DE2821D30900A6691D /* MaskBootcamp.swift in Sources */,
 				875004B4283C26800009CC84 /* PhotoModelCacheManager.swift in Sources */,
+				879729E02D5959BD007D2612 /* ScrollViewPagingBootcamp.swift in Sources */,
 				87E3B8AF281CA88400853564 /* ContentView.swift in Sources */,
 				87E3B8AD281CA88400853564 /* SwiftUIThinkingContinuedLearningApp.swift in Sources */,
 				875004B0283C1F910009CC84 /* DownloadingImageView.swift in Sources */,
@@ -481,6 +489,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,6 +519,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
