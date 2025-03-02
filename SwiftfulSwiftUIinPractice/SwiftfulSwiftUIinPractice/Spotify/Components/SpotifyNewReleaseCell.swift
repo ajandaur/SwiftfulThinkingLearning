@@ -2,7 +2,7 @@
 //  SpotifyNewReleaseCell.swift
 //  SwiftfulSwiftUIinPractice
 //
-//  Created by Anmol  Jandaur on 3/1/25.
+//  Created by Nick Sarno on 2/16/24.
 //
 
 import SwiftUI
@@ -13,11 +13,10 @@ struct SpotifyNewReleaseCell: View {
     var headline: String? = "New release from"
     var subheadline: String? = "Some Artist"
     var title: String? = "Some Playlist"
-    var substitle: String? = "Single - title"
-    // Don't need to write up code for init for preview
+    var subtitle: String? = "Single - title"
     var onAddToPlaylistPressed: (() -> Void)? = nil
     var onPlayPressed: (() -> Void)? = nil
-    
+
     var body: some View {
         VStack(spacing: 16) {
             HStack(spacing: 8) {
@@ -25,7 +24,7 @@ struct SpotifyNewReleaseCell: View {
                     .frame(width: 50, height: 50)
                     .clipShape(Circle())
                 
-                VStack(spacing: 2) {
+                VStack(alignment: .leading, spacing: 2) {
                     if let headline {
                         Text(headline)
                             .foregroundStyle(.spotifyLightGray)
@@ -54,8 +53,8 @@ struct SpotifyNewReleaseCell: View {
                                 .foregroundStyle(.spotifyWhite)
                         }
                         
-                        if let substitle {
-                            Text(substitle)
+                        if let subtitle {
+                            Text(subtitle)
                                 .foregroundStyle(.spotifyLightGray)
                         }
                     }
@@ -72,7 +71,7 @@ struct SpotifyNewReleaseCell: View {
                             }
                             .offset(x: -4)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                        
+
                         Image(systemName: "play.circle.fill")
                             .foregroundStyle(.spotifyWhite)
                             .font(.title)
@@ -80,18 +79,21 @@ struct SpotifyNewReleaseCell: View {
                 }
                 .padding(.trailing, 16)
             }
+            .padding()
             .themeColors(isSelected: false)
             .cornerRadius(8)
             .onTapGesture {
                 onPlayPressed?()
             }
         }
+
     }
 }
 
 #Preview {
     ZStack {
         Color.black.ignoresSafeArea()
+        
         SpotifyNewReleaseCell()
             .padding()
     }

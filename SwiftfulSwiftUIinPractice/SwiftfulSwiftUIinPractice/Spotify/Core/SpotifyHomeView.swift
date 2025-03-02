@@ -13,6 +13,7 @@ struct SpotifyHomeView: View {
     @State private var currentUser: User? = nil
     @State private var selectedCategory: Category? = nil
     @State private var products: [Product] = []
+    @State private var productRows: [ProductRow] = []
     
     var body: some View {
         ZStack {
@@ -23,18 +24,14 @@ struct SpotifyHomeView: View {
                     Section {
                         VStack(spacing: 16) {
                             recentSection
+                                .padding(.horizontal, 16)
                             
                             if let product = products.first {
                                 newReleaseSection(product: product)
+                                    .padding(.horizontal, 16)
                             }
-                          
-                        }
-                        .padding(.horizontal, 16)
-                        
-                        ForEach(0..<20) { _ in
-                            Rectangle()
-                                .fill(Color.red)
-                                .frame(width: 200, height: 200)
+                            
+                            listRows
                         }
                     } header: {
                         header
@@ -53,13 +50,25 @@ struct SpotifyHomeView: View {
     }
     
     private func getData() async {
-        do {
-            currentUser = try await DatabaseHelper().getUsers().first
-            products = try await Array(DatabaseHelper().getProducts().prefix(8))
-        } catch {
-            
-        }
-    }
+         guard products.isEmpty else { return }
+         
+         do {
+             currentUser = try await DatabaseHelper().getUsers().first
+             products = try await Array(DatabaseHelper().getProducts().prefix(8))
+             
+             
+             var rows: [ProductRow] = []
+             let allBrands = Set(products.map({ $0._brand }))
+             for brand in allBrands {
+ //                let products = self.products.filter({ $0.brand == brand })
+                 rows.append(ProductRow(title: brand.capitalized, products: products))
+             }
+             productRows = rows
+         } catch {
+             
+         }
+     }
+     
     
     private var header: some View {
         HStack(spacing: 0) {
@@ -74,9 +83,7 @@ struct SpotifyHomeView: View {
                 }
             }
             .frame(width: 35, height: 35)
-            
-            
-            
+
             ScrollView(.horizontal) {
                 HStack(spacing: 8) {
                     ForEach(Category.allCases, id: \.self) { category in
@@ -100,6 +107,10 @@ struct SpotifyHomeView: View {
         NonLazyVGrid(columns: 2, alignment: .center, spacing: 10, items: products) { product in
             if let product {
                 SpotifyRecentsCell(imageName: product.firstImage, title: product.title)
+                    .asButton(.press) {
+                        
+                    }
+                
             }
         }
     }
@@ -110,12 +121,38 @@ struct SpotifyHomeView: View {
             headline: product.brand,
             subheadline: product.category,
             title: product.title,
-            substitle: product.description) {
+            subtitle: product.description) {
                 //
             } onPlayPressed: {
                 //
             }
     }
+    
+    private var listRows: some View {
+        ForEach(productRows) { row in
+            VStack(spacing: 8) {
+                Text(row.title)
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.spotifyWhite)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 16)
+                
+                ScrollView(.horizontal) {
+                    HStack(spacing: 16) {
+                        ForEach(row.products) {  product in
+                            ImageTitleRowCell(imageSize: 120, imageName: product.firstImage, title: product.title)
+                                .asButton(.press) {
+                                    
+                                }
+                        }
+                    }
+                }
+                .scrollIndicators(.hidden)
+            }
+        }
+    }
+    
 }
 
 #Preview {
