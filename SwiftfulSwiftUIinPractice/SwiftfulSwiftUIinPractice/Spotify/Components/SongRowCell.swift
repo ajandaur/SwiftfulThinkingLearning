@@ -46,7 +46,10 @@ struct SongRowCell: View {
                     onEllipsisPressed?()
                 }
         }
-            .foregroundStyle(.red)
+        .background(Color.black.opacity(0.001))
+        .onTapGesture {
+            onCellPressed?()
+        }
     }
 }
 
