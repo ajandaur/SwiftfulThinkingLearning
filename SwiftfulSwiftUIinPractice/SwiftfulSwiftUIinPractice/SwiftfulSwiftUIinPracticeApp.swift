@@ -13,7 +13,7 @@ struct SwiftfulSwiftUIinPracticeApp: App {
     var body: some Scene {
         WindowGroup {
             RouterView { _ in
-                SpotifyHomeView()
+                BumbleHomeView()
             }
         }
     }
